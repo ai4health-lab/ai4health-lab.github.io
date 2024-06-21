@@ -1,0 +1,50 @@
+/* assets/css/style.css */
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team-leader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+  max-width: 200px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  color: #1e73be;
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.team-member.professor {
+  order: -1; /* 将导师排在最前面 */
+  font-weight: bold; /* 可以使导师信息加粗或其他特定样式 */
+}
